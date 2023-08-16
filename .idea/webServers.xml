@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3b5a705f-e9aa-4653-9fe3-0812700bc23e" name="germany">
+        <fileTransfer accessType="SFTP" host="germany.cyberpersons.com" port="22" sshConfigId="c1126921-5385-4663-967f-941fc72b943b" sshConfig="root@germany.cyberpersons.com:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="8ec6202b-dde5-4b36-8289-567544875842" name="client" url="http://mars.hostprovider.org">
+        <fileTransfer accessType="FTPS" host="mars.hostprovider.org" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

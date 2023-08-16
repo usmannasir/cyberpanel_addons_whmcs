@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="client" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="client">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/addons/cyberpanel" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="germany">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/whmcs.cyberpanel.net/public_html/modules/addons/cyberpanel" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
